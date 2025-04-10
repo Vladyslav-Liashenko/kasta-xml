@@ -1,0 +1,144 @@
+{
+    "items": [
+        {
+            "returned_items": [],
+            "client_returns": [],
+            "kasta_pays_for_shipping": true,
+            "dont_call_me": true,
+            "comments": [
+                "№ I-40175863 - оплачено, в отгрузку",
+                "I-40183444"
+            ],
+            "client": {
+                "first_name": "Наталія",
+                "last_name": "Степаненко",
+                "middle_name": "Костянтинівна",
+                "phone": "380675014079"
+            },
+            "ordered_items": [
+                {
+                    "returned_quantity": 0,
+                    "color": "Білий/чорний",
+                    "barcode": [],
+                    "campaign_id": null,
+                    "partner": "kastaua_41097426",
+                    "original_quantity": 1,
+                    "kasta_color": "Черный",
+                    "paid_price": 649.0,
+                    "new_price": 649.0,
+                    "unique_sku_id": "6647274",
+                    "supplier_code": "BS3991",
+                    "kasta_size": "40",
+                    "site_url": "https://kasta.ua/product/22269596:702",
+                    "bonuses": [],
+                    "size": "40",
+                    "line_id": 76503,
+                    "kind": "Босоніжки A663",
+                    "quantity": 1,
+                    "contract_uuid": "62e9b856-48c0-4a8e-93b5-a018baaa2eb8",
+                    "supplier_price": 584.1
+                }
+            ],
+            "card_payment_state": "complete",
+            "delivery_properties": {
+                "cost": 0.0,
+                "branch_type": "branch",
+                "is_partial_release": null,
+                "type": "novaposhta",
+                "black_used": true,
+                "paid_price": "0.00",
+                "declaration_number": "20400448343445",
+                "rate": "kasta_rate"
+            },
+            "cancelled_items": [],
+            "requested_payment_method": "card",
+            "bonus": 0.00,
+            "id": "S55E4S6",
+            "bnpl_docs": null,
+            "courier_type": "novaposhta",
+            "shipping_address": {
+                "warehouse": {
+                    "delivery_service_info": {
+                        "city_ref_id": "b2dded6a-c3ac-11e3-9fa0-0050568002cf",
+                        "region_ref_id": "71508131-9b87-11de-822f-000c2965ae0e"
+                    },
+                    "number": 1,
+                    "name": "Відділення №1: вул. Печерська, 6",
+                    "ref_id": "7b422f96-e1b8-11e3-8c4a-0050568002cf"
+                },
+                "email": "n.stepanenko@kasta.ua",
+                "first_name": "Наталия",
+                "phone": "380675014079",
+                "city": {
+                    "name": "Чайки (Київська обл.)",
+                    "site_id": 9252,
+                    "logistics_id": 9252
+                },
+                "middle_name": "Константиновна",
+                "region": {
+                    "name": "Київська обл.",
+                    "site_id": 8,
+                    "logistics_id": 4
+                },
+                "flat": "",
+                "last_name": "Степаненко"
+            },
+            "statuses": [
+                {
+                    "amount": 649.00,
+                    "trans_id": "S55E4S6>C108:45128259",
+                    "partner": "kastaua_41021687",
+                    "rrn": "005845012285",
+                    "type": "PaymentReceived",
+                    "payment_type": "card",
+                    "card_pan": "52****8078",
+                    "processing_date": 1742925544,
+                    "uuid": "32a7f1d1-80d8-4fd8-938b-8ec46e6d893d",
+                    "auth_code": "06F0C1",
+                    "created_at": "2025-03-25T19:59:04.000+02:00",
+                    "card_type": "MasterCard"
+                },
+                {
+                    "uuid": "888a47a9-6fb9-4744-b060-639d355888d3",
+                    "created_at": "2025-03-25T19:59:04.000+02:00",
+                    "type": "Created"
+                },
+                {
+                    "uuid": "62e9b856-48c0-4a8e-93b5-a018baaa2eb8",
+                    "created_at": "2025-03-26T16:47:30.000+02:00",
+                    "type": "ConfirmedBySupplier"
+                },
+                {
+                    "uuid": "62e9b856-48c0-4a8e-93b5-a018baaa2e64",
+                    "created_at": "2025-03-26T16:55:51.000+02:00",
+                    "type": "Packed"
+                },
+                {
+                    "uuid": "62e9b856-48c0-4a8e-64b5-a018baaa2eb8",
+                    "created_at": "2025-03-26T16:57:09.000+02:00",
+                    "type": "AnnouncedForDelivery"
+                },
+                {
+                    "uuid": "07b94893-099d-4664-9b2e-4b7b046b433f",
+                    "created_at": "2025-03-26T17:01:02.000+02:00",
+                    "type": "MoneySettleSuccess"
+                },
+                {
+                    "uuid": "6dfd9328-93d8-42c6-9263-72096b382af7",
+                    "created_at": "2025-03-27T21:00:31.000+02:00",
+                    "type": "SentToDelivery"
+                },
+                {
+                    "uuid": "d408d92f-bde9-4f7e-993b-8c3ad10b700e",
+                    "created_at": "2025-03-28T10:30:30.000+02:00",
+                    "type": "AtLocation"
+                },
+                {
+                    "uuid": "c3ed891e-4683-44cc-a36c-8ac8fee8d25d",
+                    "created_at": "2025-04-01T19:30:12.000+03:00",
+                    "type": "Delivered"
+                }
+            ]
+        }
+    ]
+}
